@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(117, 117, 216);
+    h1{
+    color: black;
+    }
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 30;
+}
+
+#Pesquisa{
+  margin: 20px 0 40px 0; 
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+#poke-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+#poke-list li{
+    text-align: center;
+}
+
+#poke-list img{
+    width: 300px;
+}
